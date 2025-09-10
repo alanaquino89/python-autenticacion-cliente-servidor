@@ -23,11 +23,10 @@ Cada archivo cumple una función dentro del sistema:
 3. `cliente_udp.py` → Cliente alternativo usando UDP.  
 4. `servidor_udp.py` → Servidor alternativo usando UDP.  
 5. `usuarios.txt` → Archivo con credenciales (usuario:hash).  
-6. `logs.txt` → Archivo de actividad generado automáticamente.  
-7. `readme.txt` → Instrucciones iniciales.  
-8. `README.txt` → Documento mejorado con instrucciones completas.  
-9. `docs/Trabajo Practico de Autenticacion Basica.docx` → Informe del trabajo práctico.  
-10. `docs/Diagrama de flujo del sistema.png` → Diagrama de flujo del sistema.  
+6. `logs.txt` → Archivo de actividad generado automáticamente.   
+8. `README.md` → Documento mejorado explicaciones e instrucciones completas.  
+9. `Documento Trabajo Practico de Autenticacion Basica.docx` → Informe del trabajo práctico.  
+10. `Imagen Diagrama de flujo del sistema.png` → Diagrama de flujo del sistema.  
 
 ---
 
