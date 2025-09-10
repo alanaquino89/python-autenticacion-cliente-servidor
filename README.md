@@ -1,0 +1,94 @@
+# 🔑 Sistema Cliente-Servidor en Python
+
+Este repositorio contiene un proyecto en **Python** que implementa un 
+sistema **cliente-servidor con autenticación básica**, desarrollado por 
+**Alan G. Aquino R.**
+
+El programa permite practicar y aplicar conceptos como:
+- Comunicación en red usando **sockets TCP y UDP**.
+- Autenticación de usuarios con credenciales.
+- Registro de nuevos usuarios.
+- Manejo de múltiples conexiones con **multithreading**.
+- Uso de **hash SHA-256** para proteger contraseñas.
+- Registro de actividad mediante logs.
+
+---
+
+# 📂 Contenido
+
+Cada archivo cumple una función dentro del sistema:
+
+1. `cliente.py` → Cliente TCP con soporte login y registro.  
+2. `servidor.py` → Servidor TCP multicliente con logs y autenticación.  
+3. `cliente_udp.py` → Cliente alternativo usando UDP.  
+4. `servidor_udp.py` → Servidor alternativo usando UDP.  
+5. `usuarios.txt` → Archivo con credenciales (usuario:hash).  
+6. `logs.txt` → Archivo de actividad generado automáticamente.  
+7. `readme.txt` → Instrucciones iniciales.  
+8. `README.txt` → Documento mejorado con instrucciones completas.  
+9. `docs/Trabajo Practico de Autenticacion Basica.docx` → Informe del trabajo práctico.  
+10. `docs/Diagrama de flujo del sistema.png` → Diagrama de flujo del sistema.  
+
+---
+
+# 🚀 Ejecución
+
+## TCP
+1. Ejecutar el servidor:
+   python servidor.py
+
+2. En otra terminal ejecutar el cliente:
+   python cliente.py
+
+3. Seleccionar opción:
+   - Iniciar sesión
+   - Registrarse
+
+## UDP
+1. Ejecutar el servidor UDP:
+   python servidor_udp.py
+
+2. En otra terminal ejecutar el cliente UDP:
+   python cliente_udp.py
+
+---
+
+# 📖 Ejemplo de uso
+
+Ejemplo de `usuarios.txt`:
+
+alan:clave123  
+juan:pass456  
+admin:adminpass  
+liz:f2c745228b7caea03afe7762b912ab231f591345de10cdae187895e51ce6ea81  
+
+---
+
+# 📖 Requisitos
+
+- Python 3.8 o superior.  
+- Sistema operativo: Windows, Linux o macOS.  
+
+---
+
+# 🤝 Contribuciones
+
+¡Las mejoras son bienvenidas!  
+Puedes agregar nuevas funcionalidades como:
+- Bases de datos en lugar de archivos de texto.  
+- Cifrado de extremo a extremo.  
+- Interfaces gráficas para cliente/servidor.  
+
+---
+
+# 👨‍💻 Autor
+
+Desarrollado por **Alan G. Aquino R.**  
+Estudiante de Ingeniería en Informática.  
+
+---
+
+# 📜 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.  
+Eres libre de usar, modificar y compartir el código con fines educativos o profesionales.
