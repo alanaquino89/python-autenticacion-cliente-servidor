@@ -74,9 +74,8 @@ liz:f2c745228b7caea03afe7762b912ab231f591345de10cdae187895e51ce6ea81
 
 ¡Las mejoras son bienvenidas!  
 Puedes agregar nuevas funcionalidades como:
-- Bases de datos en lugar de archivos de texto.  
-- Cifrado de extremo a extremo.  
-- Interfaces gráficas para cliente/servidor.  
+- Bases de datos en lugar de archivos de texto.   
+- Interfaces gráficas para cliente-servidor.  
 
 ---
 
